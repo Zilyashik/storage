@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+		<title>тэги часть 3</title>
+	</head>
+
+	<body>
+
+ 		<form action="#" method="post" enctype="multipart/form-data"></form>
+ 		<!-- выступает в роли оболочки всей формы (как ящик с инструментами) 
+ 			отвечает за передачу данных
+ 			экшн отвечает именно куда надо
+ 			метод отвечает за метод передачи данных-->
+
+ 		<div>
+ 			<input tabindex="1" placeholder="подпись поля" type="text" name="username" value=""/>
+ 		</div>
+<!--placeholder испльзуется только  с тайпом ТЕКСТ и в TEXTAREA
+disabled блокирует любые действия с полем -->
+
+ 		<div>
+ 		<input type="password" name="userpass" value="">	
+ 		</div>
+ 		
+ 		<div>
+ 			<p><input tabindex="2" checked type="radio" name="bear" value="lager"/> светлое пиво</p>
+ 			<p><input tabindex="2" type="radio" name="bear" value="dark"/> темное пиво</p>
+ 		</div>
+<br>
+ 		<div>
+ 			<p><input type="radio" name="bear2" value="lager"/> светлое пиво</p>
+ 			<p><input checked type="radio" name="bear2" value="dark"/> темное пиво</p>
+ 		</div>
+
+<br>
+		<div>
+			<p><input type="checkbox" name="car" value="yes"/>Наличие авто</p>
+			<p><input checked type="checkbox" name="car2" value="yes"/>Наличие авто2</p>
+			<p><input type="checkbox" name="car3" value="yes"/>Наличие авто3</p>
+		</div>
+	<!--обычно после валъю осталвляют пустым -->
+
+		<div>
+			<p><input type="file" name="photo" /></p>
+		</div>
+
+		<div>
+			<textarea name="text">эээээм</textarea>
+		</div>
+
+		<div>
+			<select name="color">
+				<option value="red">красный</option>
+				<option selected value="yellow">желтый</option>
+				<option value="green">зеленый</option>
+			</select>
+		</div>
+
+		<div>
+			<button type="submit">Отправить</button>
+		</div>
+	</body>
+
+</html>
